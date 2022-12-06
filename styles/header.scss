@@ -1,0 +1,117 @@
+header {
+    .uk-logo {
+        > img {
+            margin-top: 7px;
+        }
+    }
+
+    /*.uk-navbar-sticky {
+        background: #fff;
+
+        .uk-logo {
+            >img {
+                margin: 10px;
+            }
+        }
+
+        span {
+            display: none;
+        }
+    }*/
+
+    .uk-button-default {
+        border: none;
+        background: transparent;
+        margin-top: -25px;
+
+        span {
+            margin: 0 10px;
+            font-family: gothamBook;
+            color: #fff;
+            font-size: 12px;
+        }
+
+        .fa-bars {
+            color: #fff;
+            font-size: 25px;
+            background: #07dd74;
+            padding: 15px;
+        }
+    }
+
+    @media (min-width: 1000px) {
+        .uk-offcanvas-bar {
+            width: 50%;
+        }
+    }
+
+    .uk-offcanvas-bar {
+        background: #007e4a;
+
+        .uk-nav-primary {
+            > li {
+                a {
+                    color: #fff;
+                    font-family: gothamBlack;
+                    font-size: 30px;
+                    text-transform: uppercase;
+                    padding: 10px 0;
+                    display: flex;
+                    justify-content: end;
+                }
+            }
+
+            .uk-accordion {
+                > li {
+                    .uk-accordion-title {
+                        display: flex;
+                        justify-content: end;
+                        font-family: gothamBlack;
+                        font-size: 30px;
+                        text-transform: uppercase;
+                        padding: 10px 0;
+                    }
+
+                    .uk-accordion-content {
+                        .productsList {
+                            > li {
+                                a {
+                                    font-size: 14px;
+                                    font-family: gothamBook;
+                                    text-transform: uppercase;
+                                    color: #07dd74;
+                                    display: flex;
+                                    justify-content: end;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .uk-offcanvas-close {
+        background: #07dd74;
+        padding: 20px;
+    }
+
+    .searchBar {
+        display: flex;
+        justify-content: end;
+    }
+
+    .uk-sticky-below {
+        background: #fff;
+        box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.08);
+        padding: 10px;
+
+        .uk-button-default {
+            margin: 0px;
+        }
+
+        span {
+            color: #000;
+        }
+    }
+}

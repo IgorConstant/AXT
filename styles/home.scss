@@ -1,0 +1,189 @@
+#topSearch {
+    @media (min-width: 1200px) {
+        margin-top: -85px;
+    }
+
+    .content {
+        padding: 30px;
+
+        small {
+            text-transform: uppercase;
+            font-family: gothamBlack;
+            color: #07dd74;
+        }
+
+        h1 {
+            text-transform: uppercase;
+            margin: 5px 0;
+        }
+
+        > img {
+            margin: 20px 0;
+        }
+
+        .uk-button-default {
+            background: #07dd74;
+            color: #fff;
+            font-family: gothamBook;
+            border: none;
+        }
+    }
+
+    .greenBlock {
+        background: #007e4a;
+        padding: 100px 0px 100px 60px;
+
+        h2 {
+            text-transform: uppercase;
+            color: #fff;
+
+            span {
+                color: #07dd74;
+            }
+        }
+
+        p {
+            color: #fff;
+            font-family: gothamBook;
+
+            @media (min-width: 1200px) {
+                padding-right: 30%;
+            }
+        }
+    }
+
+    .searchBar {
+        background: #fff;
+        padding: 15px 35px;
+
+        form {
+            .uk-input {
+                border: none;
+
+                &::placeholder {
+                    text-transform: uppercase;
+                    font-family: gothamBook;
+                }
+            }
+
+            .uk-button-default {
+                border: none;
+                background: #07dd74;
+
+                .fa-search {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+#productsHome {
+    background: #f2f2f2;
+    padding: 80px 0;
+
+    .content {
+        h3 {
+            text-transform: uppercase;
+            font-family: gothamBlack;
+            color: #01854d;
+        }
+
+        p {
+            font-family: gothamBook;
+            font-size: 14px;
+        }
+    }
+
+    .productList {
+        h3 {
+            text-transform: uppercase;
+            font-family: gothamBlack;
+            color: #000;
+        }
+    }
+
+    .uk-card-body {
+        padding: 20px;
+
+        > img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .productTitle {
+            color: #000;
+            font-family: gothamBlack;
+            text-transform: uppercase;
+            font-size: 12px;
+        }
+    }
+}
+
+#aboutCompany {
+    .content {
+        @media (min-width: 1200px) {
+            padding: 10%;
+        }
+
+        h1 {
+            text-transform: uppercase;
+        }
+
+        .uk-button-default {
+            background: #07dd74;
+            color: #fff;
+            font-family: gothamBook;
+        }
+    }
+}
+
+#sliderClients {
+    background: #e4e4e4;
+    padding: 60px 0;
+
+    h4 {
+        font-family: gothamBook;
+        color: #000;
+        text-transform: uppercase;
+    }
+
+    .slideBlock {
+        margin: 40px 0 0 0;
+
+        .owl-carousel {
+            .item {
+                > img {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+
+            .owl-dots {
+                margin: 45px 0 0 0;
+            }
+        }
+    }
+}
+
+#catalogDownload {
+    padding: 50px 0;
+
+    .content {
+        h1 {
+            text-transform: uppercase;
+        }
+    }
+
+    p {
+        color: #313131;
+    }
+
+    .uk-button-default {
+        background: #07dd74;
+        color: #fff;
+        font-family: gothamBook;
+    }
+}

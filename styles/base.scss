@@ -1,0 +1,91 @@
+@font-face {
+    font-family: gothamBlack;
+    src: url('../../fonts/gotham-black.otf');
+}
+
+@font-face {
+    font-family: gothamBook;
+    src: url('../../fonts/gotham-book.ttf');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.uk-button-default {
+    font-family: gothamBlack;
+}
+
+p {
+    font-family: gothamBook;
+    font-size: 14px;
+}
+
+#contactHome {
+    background: #007e4a;
+    padding: 70px 0;
+
+    .contentContact {
+
+        h2,
+        p {
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0 0 0 5px;
+
+            >li {
+                margin: 15px 0;
+
+                a {
+                    color: #07dd74;
+                    text-transform: uppercase;
+                    font-family: gothamBlack;
+                    font-size: 14px;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .contactAdditional {
+            margin: 10px 0;
+
+            p {
+                margin: 0;
+
+                a {
+                    color: #fff;
+                    font-family: gothamBlack;
+                }
+            }
+        }
+
+    }
+
+    .formBlock {
+
+        .uk-input,
+        .uk-textarea {
+            margin-top: 5px;
+        }
+
+        .uk-form-label {
+            color: #fff;
+            font-family: gothamBook;
+            font-size: 14px;
+        }
+
+        .uk-button-default {
+            background: #07dd74;
+            color: #fff;
+            font-family: gothamBlack;
+            border: none;
+            padding: 10px 30px;
+        }
+    }
+}

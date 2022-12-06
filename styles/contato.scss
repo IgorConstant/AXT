@@ -1,0 +1,79 @@
+#headerContact {
+    background: #007e4a;
+    padding: 50px 0;
+
+    h2 {
+        color: #fff;
+        text-transform: uppercase;
+    }
+}
+
+#blockForm {
+    background: #f2f2f2;
+    padding: 60px 0;
+
+    p {
+        text-transform: uppercase;
+        color: #313131;
+        font-size: 14px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0 0 0 5px;
+
+        >li {
+            margin: 15px 0;
+
+            a {
+                color: #07dd74;
+                text-transform: uppercase;
+                font-family: gothamBlack;
+                font-size: 14px;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .contactAdditional {
+        margin: 10px 0;
+
+        p {
+            margin: 0;
+
+            a {
+                color: #313131;
+                font-family: gothamBlack;
+                text-decoration: none;
+            }
+        }
+
+        address {
+            font-size: 14px;
+            font-family: gothamBook;
+            color: #313131;
+        }
+    }
+
+    .formBlock {
+
+        .uk-input,
+        .uk-textarea {
+            margin-top: 5px;
+        }
+
+        .uk-form-label {
+            color: #313131;
+            font-family: gothamBook;
+            font-size: 14px;
+        }
+
+        .uk-button-default {
+            background: #07dd74;
+            color: #fff;
+            font-family: gothamBlack;
+            border: none;
+            padding: 10px 30px;
+        }
+    }
+}
